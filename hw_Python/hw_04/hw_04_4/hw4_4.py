@@ -34,7 +34,8 @@ def create_str(sp):
 
 
 k = int(input("Введите натуральную степень k = "))
+text = create_str(ratios(k))
 with open('hw_Python\\hw_04\\hw_04_4\\hw4_4.txt', 'w') as data:
-    data.write(create_str(ratios(k)))
+    data.write(text)
 
-print(create_str(ratios(k)))
+print(text)
