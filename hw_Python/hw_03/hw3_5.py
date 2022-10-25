@@ -10,7 +10,7 @@ def fibonacci(num):
         fbn_num.append(n1)
         n1, n2 = n2, n1 + n2
     n1, n2 = 0, 1
-    for _ in range(num+1):
+    for _ in range(num + 1):
         fbn_num.insert(0, n1)
         n1, n2 = n2, n1 - n2
     return fbn_num

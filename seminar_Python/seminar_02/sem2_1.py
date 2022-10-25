@@ -5,7 +5,7 @@ n = int(input("Введите натуральное число n "))
 result = ""
 sign = 1
 for i in range(0, n):
-    result += str(3**i*sign)
+    result += str(3**i * sign)
     result += ", "
     sign = -sign
-print(result[0: (len(result)-2)])
+print(result[0: (len(result) - 2)])

@@ -56,7 +56,7 @@ for i in range(0, len(pl2_int)):
 summ = []
 for i in range(0, len(pl1_int)):
     if i == 0 or i % 2 == 0:
-        summ.append(pl1_int[i]+pl2_int[i])
+        summ.append(pl1_int[i] + pl2_int[i])
 
 summ.reverse()
 
@@ -84,7 +84,7 @@ def poly(k, list):
                 str_p += f"{list[i]} = 0"
             else:
                 print(len(str_p))
-                str_p = str_p[:len(str_p)-2]
+                str_p = str_p[:len(str_p) - 2]
                 str_p += "= 0"
     return str_p
 

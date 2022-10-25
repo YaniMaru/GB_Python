@@ -15,7 +15,7 @@ def sum_of_odd(input_list):
     res = 0
     for i in range(1, len(input_list), 2):
         #  i % 2:
-        if i % 2 != 0:    
+        if i % 2 != 0:
             res += input_list[i]
     print(f'Сумма элементов списка, стоящих на нечётных позициях : {res}')
 

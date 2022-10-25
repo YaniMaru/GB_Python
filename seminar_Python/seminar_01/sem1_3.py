@@ -5,7 +5,7 @@ num = int(input('Введите целое число: '))
 
 def print_num(number):
     number = abs(number)  # модуль числа
-    first = number*-1
+    first = number * -1
     second = number
     while first < second:
         print(f'{first},', end='')

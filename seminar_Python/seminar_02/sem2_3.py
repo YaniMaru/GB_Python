@@ -3,4 +3,5 @@
 
 first_string = input("Введите первую строку: ")
 second_string = input("Введите вторую строку: ")
-print(f"Количество вхождений второй строки в первую {first_string.count(second_string)}")
+print(
+    f"Количество вхождений второй строки в первую {first_string.count(second_string)}")

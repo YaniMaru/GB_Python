@@ -2,6 +2,7 @@
 
 import random
 
+
 def shuffle(x):
     x = list(x)
     random.shuffle(x)

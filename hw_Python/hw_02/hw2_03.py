@@ -6,7 +6,7 @@
 def get_list(n):
     list = []
     for n in range(1, num + 1):
-        list.append(round((1+1/n)**n, 4))
+        list.append(round((1 + 1 / n)**n, 4))
     return list
 
 
